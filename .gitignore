@@ -1,0 +1,9 @@
+bin/
+backup.json
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+vendor/
+coverage.out
