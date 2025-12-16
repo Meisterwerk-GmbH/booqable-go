@@ -1,6 +1,12 @@
-# bq-go
+# Todos
+- the client is to generic, it should have functions that return actual typed resources.
+The most important resource at the Moment is the order-resources and it should be possible to retrieve all resources
+including their positions and customers.
+- extract multiple things into submodules to create a better overview
 
-`bq-go` is a small Go client for the Booqable V4 REST API. Use it as a building block for CLIs or services.
+# booqable-go
+
+`booqable-go` is a small Go client for the Booqable V4 REST API. Use it as a building block for CLIs or services.
 
 ## Install
 
