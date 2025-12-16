@@ -1,3 +1,3 @@
-module github.com/booqable/bq-go
+module github.com/Meisterwerk-GmbH/booqable-go
 
 go 1.22.0

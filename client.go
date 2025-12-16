@@ -48,15 +48,6 @@ func WithHTTPClient(hc *http.Client) ClientOption {
 	}
 }
 
-// WithUserAgent overrides the User-Agent header.
-func WithUserAgent(agent string) ClientOption {
-	return func(c *Client) {
-		if agent != "" {
-			c.UserAgent = agent
-		}
-	}
-}
-
 // NewClient creates a Client with sane defaults.
 func NewClient(apiKey string, opts ...ClientOption) *Client {
 	c := &Client{
